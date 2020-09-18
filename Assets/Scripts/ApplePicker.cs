@@ -30,7 +30,7 @@ public class ApplePicker : MonoBehaviour
         {
             Destroy(tGO);
         }
-        int basketIndex = basketList.Count - 1;
+        int basketIndex = basketList.Count-1;
         GameObject tBasketGO = basketList[basketIndex];
         basketList.RemoveAt(basketIndex);
         Destroy(tBasketGO);
