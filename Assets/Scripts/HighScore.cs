@@ -9,7 +9,7 @@ public class HighScore : MonoBehaviour
     {
         if (PlayerPrefs.HasKey("HighScore"))
         {
-            score = (PlayerPrefs.GetInt("Highscore"));
+            score = PlayerPrefs.GetInt("Highscore");
         }
         PlayerPrefs.SetInt("HighScore", score);
     }
